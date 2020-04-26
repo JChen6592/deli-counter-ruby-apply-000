@@ -8,7 +8,10 @@ def line(line_status)
       output += "#{i+1}. #{ls}"
     end
   else
-    return "The line is "
+    return "The line is currently empty!"
+  output
+end 
+
     
     
   
