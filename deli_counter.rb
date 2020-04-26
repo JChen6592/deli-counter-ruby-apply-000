@@ -9,7 +9,7 @@ def line(numinline)
     line_method_array.each.with_index(0) do |name, index|
       line_method_array.push("#{index}. #{name}")
     end
-    output = line_method_arry.join(" ")
+    output = line_method_array.join(" ")
     puts "The line is currently: #{output}"
   end
 end
