@@ -11,6 +11,7 @@ def line(numinline)
     end
     output = line_method_array.join(" ")
     puts "The line is currently: " + output
+    puts output 
   end
 end
     
