@@ -11,7 +11,7 @@ def line(line_status)
       output += "#{counter+1}. #{line_status[counter]}"
       counter += 1 
     end 
-    puts output
+    output
   end
 end
     
