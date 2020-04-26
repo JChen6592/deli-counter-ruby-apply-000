@@ -1,17 +1,16 @@
 # Write your code here.
 katz_deli = []
 
-def line(line_status)
-  if line_status.length == 0
+def line_method(numinline)
+  line_method_array = []
+  if numinline.length == 0
     puts "The line is currently empty."
-  else 
-    counter = 0 
-    output = "The line is currently: "
-    while counter < line_status.length 
-      output += "#{counter+1}. #{line_status[counter]}"
-      counter += 1 
-    end 
-    output
+  else
+    line_method_array.each.with_index(0) do |name, index|
+      line_method_array.push("#{index}. #{name}")
+      # push method will push the name into the index 
+    end
+    puts "The line is: #{line_method_array.join(" ")}"
   end
 end
     
