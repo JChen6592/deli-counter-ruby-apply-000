@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(line_status)
   if line_status.length == 0
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else 
     counter = 0 
     output = "The line is currently: "
@@ -16,7 +16,6 @@ def line(line_status)
 end
     
     
-  
 def take_a_number(line, name)
   line << name 
   puts "Welcome, #{name}. You are number #{line.length} in line."
