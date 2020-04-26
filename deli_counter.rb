@@ -12,6 +12,7 @@ def line(line_status)
       counter += 1 
     end 
     output
+  end 
 end
     
     
