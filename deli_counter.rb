@@ -8,7 +8,7 @@ def line(line_status)
   else 
     counter = 0 
     until counter == line_status.length 
-      output += "#{counter+1}. #{line_status[counter]"
+      output += "#{counter+1}. #{line_status[counter]}"
 end
     
     
