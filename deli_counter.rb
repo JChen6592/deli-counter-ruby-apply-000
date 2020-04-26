@@ -10,7 +10,7 @@ def line(numinline)
       line_method_array.push("#{index}. #{name}")
     end
     output = line_method_arry.join(" ")
-    puts "The line is currently: #{line_method_array.join(" ")}"
+    puts "The line is currently: #{output}"
   end
 end
     
