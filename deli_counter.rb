@@ -2,16 +2,8 @@
 katz_deli = []
 
 def line(line_status)
-  output = "The line is currently: " 
-  if line_status.length > 0 
-    line_status.each_with_index do |ls, i|
-      output += "#{i+1}. #{ls}"
-    end
-  else
+  if line_status.length == 0
     return "The line is currently empty!"
-  output
-end 
-
     
     
   
