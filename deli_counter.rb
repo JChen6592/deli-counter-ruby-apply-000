@@ -3,7 +3,12 @@ katz_deli = []
 
 def line(line_status)
   if line_status.length == 0
-    return "The line is currently empty!"
+    return "The line is currently empty."
+  else 
+    counter = 0 
+    output = "The line is currently: "
+    until counter == line_status.length 
+      output += ""
     
     
   
